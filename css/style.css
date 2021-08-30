@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Myriad-Pro";
-  src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF)
-    format("truetype");
-}
-
 * {
   box-sizing: border-box;
   color: #e6ecd2;
@@ -14,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgba(17, 17, 17, 255);
-  font-family: Myriad-Pro, Times New Roman;
+  font-family: Times New Roman;
 }
 
 html {
