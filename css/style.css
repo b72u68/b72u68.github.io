@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Myriad-Pro";
+  src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF)
+    format("truetype");
+}
+
 * {
   box-sizing: border-box;
   color: #e6ecd2;
@@ -8,6 +14,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgba(17, 17, 17, 255);
+  font-family: Myriad-Pro, Times New Roman;
+}
+
+h1,
+h2,
+h3 {
+  font-family: serif, Times New Roman;
 }
 
 .main-header-menu {
@@ -37,7 +50,7 @@ body {
 
 .menu-nav {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: lighter;
 }
 
@@ -89,7 +102,7 @@ section h2 {
 }
 
 section .section-content {
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin: 0;
   padding: 30px 15%;
 }
@@ -99,10 +112,16 @@ section .section-content {
 }
 
 .project-item {
+  align-items: flex-end;
   padding: 50px;
   display: flex;
   border-bottom: 2px solid rgba(43, 43, 43, 255);
   cursor: pointer;
+}
+
+.right {
+  text-align: right;
+  justify-content: flex-end;
 }
 
 .project-item:hover {
@@ -137,7 +156,7 @@ footer h3 {
   padding: 30px 0px;
   margin: 0;
   font-size: 1.8em;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
 footer ul {
@@ -152,7 +171,7 @@ footer a {
   display: inline-block;
   padding: 0px 30px;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 footer a:hover {
