@@ -8,9 +8,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-.main-header {
   background-color: rgba(17, 17, 17, 255);
 }
 
@@ -103,14 +100,11 @@ section .section-content {
   background-color: rgba(43, 43, 43, 255);
 }
 
-.section-2 {
-  background-color: rgba(17, 17, 17, 255);
-}
-
 .project-item {
   padding: 50px;
   display: flex;
   border-bottom: 2px solid rgba(43, 43, 43, 255);
+  cursor: pointer;
 }
 
 .project-item:hover {
@@ -137,7 +131,6 @@ section .section-content {
 }
 
 footer {
-  background-color: rgba(17, 17, 17, 255);
   text-align: center;
   padding: 30px 0px;
 }
@@ -158,6 +151,7 @@ footer li {
 }
 
 footer a {
+  display: inline-block;
   padding: 0px 30px;
   text-decoration: none;
   font-size: 1.3em;
