@@ -17,6 +17,10 @@ body {
   font-family: Myriad-Pro, Times New Roman;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3 {
