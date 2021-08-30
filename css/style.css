@@ -5,15 +5,9 @@
 
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
   background-color: rgba(17, 17, 17, 255);
-}
-
-.main-header {
-  height: 100%;
-  width: 100%;
 }
 
 .main-header-menu {
