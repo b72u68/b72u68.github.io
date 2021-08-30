@@ -103,6 +103,7 @@ section h2 {
   font-size: 1.8em;
   margin: 0;
   padding: 30px 10%;
+  font-weight: bold;
 }
 
 section .section-content {
@@ -145,10 +146,9 @@ section .section-content {
   color: grey;
 }
 
-.project-name a {
+.project-name {
   color: rgba(230, 163, 2, 255);
   font-weight: bold;
-  text-decoration: none;
 }
 
 footer {
