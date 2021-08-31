@@ -4,6 +4,7 @@
     <title>Why are you here? Just to suffer.</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="img/profile.png" />
+    <script src="js/main.js"></script>
   </head>
   <body>
     <header class="main-header">
@@ -13,7 +14,7 @@
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#project">Projects</a></li>
-            <li><a href="#resume">Resume/CV</a></li>
+            <li><a href="resume.html" target="_blank">Resume/CV</a></li>
           </ul>
         </nav>
       </div>
@@ -31,7 +32,7 @@
     </header>
 
     <main>
-      <section class="section-1" id="about">
+      <section class="section-grey" id="about">
         <h2>ABOUT</h2>
         <p class="section-content">
           I'm a third year Computer Science student at Illinois Institute of
@@ -48,7 +49,7 @@
         </p>
       </section>
 
-      <section class="section-2" id="project">
+      <section id="project">
         <h2>PROJECTS</h2>
         <p class="section-content">
           These are projects that I am currently or had been working on:
@@ -174,28 +175,24 @@
         </div>
       </section>
 
-      <section class="section-1" id="resume">
-        <h2>RESUME/CV</h2>
+      <section class="section-grey" id="resume">
+        <h2>CONGRATULATIONS!!!</h2>
         <p class="section-content">
-          Click
-          <a
-            href="resume.html"
-            target="_blank"
-            rel="noreferrer noopener"
-            style="
-              color: rgba(230, 163, 2, 255);
-              font-size: 1.8em;
-              font-weight: bold;
-            "
-            >here</a
-          >
-          to open my Resume/CV in new tab.
+          You have reached the end of the website. Have a rest and give yourself
+          a meme.
         </p>
+        <div class="meme-container">
+          <img id="meme-image" />
+          <p id="meme-error"></p>
+          <button type="button" onclick="onClickGetMeme()">
+            Psst. Press this button.
+          </button>
+        </div>
       </section>
     </main>
 
     <footer>
-      <h3>My Dinh</h3>
+      <h3>Contact information</h3>
       <nav>
         <ul>
           <li>
@@ -221,7 +218,7 @@
               href="https://linkedin.com/in/my-tra-dinh"
               target="_blank"
               rel="noreferrer noopener"
-              >Linkedin</a
+              >LinkedIn</a
             >
           </li>
         </ul>
