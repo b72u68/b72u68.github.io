@@ -10,8 +10,8 @@ function onClickGetMeme() {
     if (request.status === 200) {
       memeImage.src = JSON.parse(request.response).url;
       memeImage.onload = function () {
-        if (this.width >= window.innerWidth / 3) {
-          memeImage.style.width = window.innerWidth / 3 + "px";
+        if (this.width >= window.innerWidth / 2) {
+          memeImage.style.width = window.innerWidth / 2 + "px";
           memeImage.style.height = "auto";
         }
       };
