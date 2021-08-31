@@ -8,13 +8,9 @@ function onClickGetMeme() {
   request.send();
   request.onload = () => {
     if (request.status === 200) {
+      memeImage.style.width = innerWidth / 2;
+      memeImage.style.height = "auto";
       memeImage.src = JSON.parse(request.response).url;
-      memeImage.onload = function () {
-        if (this.width >= window.innerWidth / 2) {
-          memeImage.style.width = window.innerWidth / 2 + "px";
-          memeImage.style.height = "auto";
-        }
-      };
     } else {
       memeError = request.statusText;
     }
