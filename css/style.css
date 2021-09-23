@@ -198,14 +198,8 @@ button:hover {
 }
 
 .experience-item {
-  align-items: flex-end;
+  text-align: center;
   padding: 50px;
-  display: flex;
-}
-
-.right {
-  text-align: right;
-  justify-content: flex-end;
 }
 
 .experience-content {
