@@ -5,15 +5,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="img/profile.png" />
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
   </head>
   <body>
     <header class="main-header">
-      <div class="main-header-menu">
-        <h2 class="menu-title"><a href="/">My Dinh</a></h2>
+      <div class="main-header-menu right">
         <nav class="menu-nav">
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#project">Projects</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#personal">Personal</a></li>
             <li><a href="resume.html" target="_blank">Resume/CV</a></li>
           </ul>
         </nav>
@@ -36,17 +38,29 @@
         <h2>ABOUT</h2>
         <p class="section-content">
           I'm a third year Computer Science student at Illinois Institute of
-          Techonology. I mostly work as a Frontend developer &#40;developing
-          website and mobile application UI/UX using React.js, Flutter, Stencil,
+          Techonology.
+        </p>
+        <p class="section-content">
+          I mostly work as a Frontend developer &#40;developing website and
+          mobile application UI/UX using React.js, Flutter, Stencil,
           HTML/CSS&#41; and a little bit of Backend developer &#40;developing
           RESTful API using Flask, Celery, and Redis&#41; but I'm open to try
           new position &#40;especially in data or machine learning because that
           sounds fun and I want to see how it works in the industry&#41;. I also
           have experience in Java, Lua, C/C++, PostgreSQL, MySQL, Cloud
-          Firestore, Postman, Git, Vim/Neovim. I love solving programming
-          problems like Leetcode, CTF, Advent of Code, etc. and making/looking
-          at memes in my free time.
+          Firestore, Postman, Git.
         </p>
+        <p class="section-content">
+          I have tried Windows (with WSL), Manjaro (because I was afraid that I
+          was not able to use the "real" Arch Linux), and Ubuntu for working
+          environment before. But I am currently using Windows for class work.
+        </p>
+        <p class="section-content">
+          I love solving programming problems like Leetcode, CTF, Advent of
+          Code, etc. (even though I struggle with them most of the time) and
+          making/looking at memes in my free time.
+        </p>
+        <p class="section-content">(I use Vim/Neovim by the way)</p>
       </section>
 
       <section id="project">
@@ -173,6 +187,98 @@
             !
           </p>
         </div>
+      </section>
+
+      <section class="section-grey" id="experiences">
+        <h2>EXPERIENCES</h2>
+        <p class="section-content">
+          I mostly used Python, JavaScript, TypeScript, Flask, React.js,
+          Stencil.js, AWS, Amazon RDS, MySQL for Frontend and Backend
+          development in my past experiences.
+        </p>
+        <div class="section-content">
+          <div class="experience-item">
+            <img src="img/cohost.jpg" width="180em" height="180em" />
+            <div class="experience-content">
+              <div class="experience-name">CoHost AI Inc.</div>
+              <div class="experience-tech"><i>Sofware Engineer Intern</i></div>
+              <div>
+                <p>
+                  Implement/improving housing rental website to provide the
+                  friendliest and most interactive UI for housing managers.
+                  <br />
+                  Develop RESTful API using Flask and implement Internet Message
+                  Protocol for sending and replying email.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="experience-item">
+            <img src="img/tincondi.jpg" width="180em" height="180em" />
+            <div class="experience-content">
+              <div class="experience-name">Tincondi</div>
+              <div class="experience-tech"><i>Web Developer Intern</i></div>
+              <div>
+                <p>
+                  Develop and design basic React components for Home page and
+                  Test page.
+                  <br />
+                  Implement RESTful API using Express to send test information
+                  and store users' answers in MySQL database server deployed on
+                  Amazon RDS.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="experience-item">
+            <img src="img/cmc.png" width="180em" height="180em" />
+            <div class="experience-content">
+              <div class="experience-name">CMC Corporation</div>
+              <div class="experience-tech"><i>Sofware Developer Intern</i></div>
+              <div>
+                <p>
+                  Work in a research team to develop a data mining app written
+                  in Python to analyze text document.
+                  <br />
+                  Design test case for each document to reduce time comparing
+                  generated text results with the original document.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="personal">
+        <h2>PERSONAL</h2>
+        <p class="section-content">
+          I like drawing in my free time. Most of my drawings are Pokemon (I
+          love all of Pokemon games!), animals, and sometimes other random
+          things that appeared in my dream. These are my favorite drawings.
+        </p>
+        <div class="section-content" style="text-align: center">
+          <img
+            src="img/wolf_in_sheep_clothing.png"
+            width="700em"
+            height="auto"
+          />
+          <img src="img/zacian_and_zamazenta.png" width="700em" height="auto" />
+          <img src="img/mega_charizard_x.png" width="700em" height="auto" />
+        </div>
+        <p class="section-content" style="text-align: center">
+          You can check out more art on my Deviant Art Gallery
+          <a
+            href="https://www.deviantart.com/edogawadore"
+            target="_blank"
+            rel="noreferrer noopener"
+            style="
+              color: rgba(230, 163, 2, 255);
+              font-size: 1.8em;
+              font-weight: bold;
+            "
+            >here</a
+          >.
+        </p>
       </section>
 
       <section class="section-grey" id="resume">
